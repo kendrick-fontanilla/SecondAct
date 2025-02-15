@@ -31,21 +31,3 @@ body {
     border-radius: 5px; 
 }
 
-.profile{
-    display: grid;
-    grid-template-columns: 1fr; 
-    grid-template-rows: auto auto auto auto; 
-    padding: 0 15px; 
-    background-color: #c08686; 
-    border: 1px solid #f79090;
-    max-width: 200px; 
-    max-height: 200px;
-    
-}
-
-.title, .location, .dob {
-    font-size: 16px; 
-    color: #555; 
-    margin: 0; 
-}
-
