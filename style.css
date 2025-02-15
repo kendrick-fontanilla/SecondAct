@@ -1,3 +1,31 @@
-.clickable{
+body {
+    margin: 0px;
+}
+
+.navigation {
+    display: flex;
     flex-direction: row;
+    background-color: bisque;
+    height: 50px; 
+    align-items: center; 
+    padding: 0 10px; 
+}
+
+.logo{
+    display: flex;  
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.Navi {
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    padding: 0 15px;
+    text-decoration: none;
+    color: black; 
+    margin: 0 5px; 
+    height: 30px; 
+    border-radius: 5px; 
 }
