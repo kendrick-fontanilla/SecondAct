@@ -29,6 +29,10 @@ body{
     margin-bottom: 15px;
 }
 
+.box ads{
+    text-align: center;
+}
+
 .profile {
     grid-area: profile;
 }
@@ -41,3 +45,11 @@ body{
     grid-area: sidebar;
 }
 
+footer{
+    text-align: left;
+    background-color:  rgb(73, 87, 133);
+    color: white;
+    padding: 1px;
+    margin-top: 100px;
+    padding-left: 5px;
+}
