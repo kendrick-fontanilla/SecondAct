@@ -21,12 +21,23 @@ body{
     padding: 15px;
 }
 
-.l-box{
+.box{
     background-color: white;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);;
     margin-bottom: 15px;
+}
+
+.profile {
     grid-area: profile;
+}
+
+.content{
+    grid-area: content;
+}
+
+.sidebar {
+    grid-area: sidebar;
 }
 
