@@ -7,17 +7,42 @@
     <title>Second Activity</title>
 </head>
 <body >
-    <header>
-        <nav class="navigation">
-            <a href="#home" class="logo">Home</a>
-            <a href="#news" class="Navi">News</a>
-            <a href="#accountsetting" class="Navi">Account Setting</a>
-            <a href="#messages" class="Navi">Messages</a>
-            <a href="#notifications" class="Navi">Notifications</a>
-            <a href="#account" class="Navi">My Account</a>
+
+    <!--HEADER DIVA-->
+
+       <header class="navbar">
+        <nav class="nav-left">
+            <a href="#" class="nav-icon hover"><img src="home_icon.png" alt="Home"></a>
+            <span class="logo">Logo</span>
+            <a href="#" class="nav-icon"><img src="news_icon.png" alt="Globe"></a>
+            <a href="#" class="nav-icon"><img src="accountsettings_icon.png" alt="Account Settings"></a>
+            <a href="#" class="nav-icon"><img src="messages_icon.png" alt="Messages"></a>
+            <select class="nav-icon dropdown">
+                <div class="notification-icon">
+                    <img src="notification_icon.png" alt="Notifications">
+                  
+                </div>
+                <div class="dropdown-content">
+                    <p>One new friend request</p>
+                    <p>John Doe posted on your wall</p>
+                    <p>Jane likes your post</p>
+                </div>
+            </select>       
         </nav>
+        <div class="nav-right">
+            <div class="profile-icon">
+                <a href="#"></a><img src="green-profile.jpg" alt="Profile">
+            </div>
+        </div>
     </header>
 
+
+
+
+
+
+
+<!--MAINN MANE -->
     <div class="container">
 
         <aside class="profile">
@@ -35,12 +60,14 @@
             </section>
         
             <!-- My Groups Section -->
+            
             <section class="box">
-                <h3>My Groups</h3>
-                <p>My Events</p>
-                <p>My Photos</p>
+                <section class="menu">
+                 <p>My Groups</p>
+                    <p>My Events</p>
+                    <p>My Photos</p>
+                 </section>
             </section>
-        
             <!-- I fixed the issue here its okay now -->
             <section class="box">
                 <h3>Interest</h3>
@@ -58,7 +85,6 @@
 
 
        <!-- main content -->
-
     <main class="content">
         <section class="box">
             <h3>Post a Status</h3>
@@ -67,8 +93,14 @@
         </section>
 
         <section class="box">
-            <article class="post">
+            <figure class="green-profile-picture">
+                <img src="green-profile.jpg" alt="Profile Picture">
                 <h3>John Doe</h3>
+                <span>1 min ago</span>
+            </figure>
+            
+            <article class="post">
+            
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                     Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
                 </p>
@@ -76,6 +108,9 @@
                 <button>Comment</button>
             </article>
         </section>
+
+
+
 
         <section class="box">
             <article class="post">

@@ -6,17 +6,160 @@ body{
 }
 
 
-.navigation{
+
+.navbar {
     display: flex;
-    justify-content: space-around;
-    background-color: rgb(73, 87, 133);
-    padding: 10px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(77, 99, 111);
+    padding: 10px 20px;
+    color: white;
 }
+
+.nav-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+}
+
+
+.nav-left {
+    display: flex;
+    gap: 15px; 
+}
+
+.nav-icon img {
+    width: 25px;
+    height: 25px;
+    filter: brightness(0) invert(1); 
+}
+
+
+.nav-icon:hover {
+    background-color: #d1d1d1; 
+}
+.nav-right:hover{
+    background-color: #d1d1d1; 
+}
+
+
+.nav-icon > img:hover {
+    filter: brightness(0); 
+}
+
+
+.logo {
+    font-size: 20px;
+    color: white;
+    margin-top: 10px;
+}
+
+
+.profile-icon img {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+
+.notification-icon {
+    position: relative;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.badge {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    background-color: rgb(72, 151, 72);
+    color: white;
+    border-radius: 50%;
+    padding: 3px 7px;
+    font-size: 12px;
+}
+
+
+.dropdown {
+    width: 40px;
+    height: 40px;
+    background-color: transparent;
+    border: 1px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+}
+
+.dropdown:hover {
+    background-color: #d1d1d1;
+}   
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    color: black;
+    left: 0;
+    top: 40px;
+    min-width: 200px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.dropdown-content p {
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+    font-size: 14px;
+}
+
+.dropdown-content p:last-child {
+    border-bottom: none;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+.nav-icon:hover {
+    background-color: rgb(255, 255, 255); 
+    border-radius: 10px;
+}
+
+.nav-icon img {
+    width: 25px;
+    height: 25px;
+    filter: brightness(0) invert(1); 
+}
+
+.nav-icon:hover img {
+    filter: brightness(1); 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .container {
     display: grid;
     grid-template-areas: "profile content sidebar";
-    grid-template-columns: 2fr 5fr 2fr; /* Issue might be here */
+    grid-template-columns: 2fr 5fr 2fr; 
     gap: 15px;
     padding: 15px;
 }
@@ -24,6 +167,7 @@ body{
 
 .box{
     background-color: white;
+    grid-template-columns: 50px auto;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);;
@@ -78,7 +222,21 @@ body{
     margin: 5px 0;
 }
 
+/*green profile*/
 
+
+.green-profile-picture img {
+    display: flex;
+    align-items: center;
+}
+
+.green-profile-picture{
+    width: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+
+
+}
 
 
 
@@ -104,3 +262,9 @@ footer{
     margin-top: 100px;
     padding-left: 5px;
 }
+
+
+
+
+
+
