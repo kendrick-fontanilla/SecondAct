@@ -319,28 +319,179 @@ body{
     border-radius: 5px;
 }
 
+
+
+/* john doe or post in general*/
 .posts {
     background: white;
     padding: 20px;
     border-radius: 5px;
     margin-bottom: 15px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
 }
+
 .posts-header {
     display: flex;
     align-items: center;
+    margin-bottom: 15px;
 }
+
 .posts-header img {
     width: 40px;
+    height: 40px;
     border-radius: 50%;
     margin-right: 10px;
 }
 
+.posts-header h3 {
+    margin: 0;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.posts-header span {
+    font-size: 12px;
+    color: #666;
+    margin-left: auto; 
+}
+
+.post-content p {
+    text-align: justify;
+    line-height: 1.6;
+    margin: 0;
+}
+
+.post-buttons {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.post-buttons button {
+    width: 100px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #3f505f;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.post-buttons button img {
+    width: 16px;
+    height: 16px;
+    margin-right: 5px;
+    filter: brightness(0) invert(1); 
+}
+
+hr {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 0;
+    border-top: 1px solid #eee;
+}
+
+.post-images img {
+    margin-top: 10px;
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    border-radius: 5px;
+}
+
+
+
+
+/*right*/
+
+.events{
+    background: white;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 5px;
+
+}
+
+
+
+.sidebar {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+.event-card img {
+    width: 100%;
+    margin-bottom: 10px;
+}
+.event-card {
+    font-size: 15px;
+    color: #333;
+    
+}
+
+
+.event-card h4 {
+    font-size: 15px;
+    color: #333;
+    
+}
+.event-heading{
+    margin-top: 10px;
+}
+.event-title {
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 10px; /
+
+}
+
+.event-time {
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+.sidebar > .event-card > img{
+    width: 100%;
+    margin-top: 20px;
+}
+
+.information-btn {
+    background: #c0c7cc;
+    border: none;
+    padding: 8px;
+    width: 100%;
+    cursor: pointer;
+    font-size: 14px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.information-btn:hover {
+    background: #a9b0b5;
+}
 
 
 
 
 
 
+
+
+
+
+
+
+
+
+/*footer*/
 footer{
     text-align: left;
     background-color:  rgb(73, 87, 133);
