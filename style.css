@@ -405,19 +405,22 @@ hr {
 
 
 
+
+
+
+
+
+
 /*right*/
 
-.events{
+.events {
     background: white;
     padding: 10px;
     border-radius: 10px;
     text-align: center;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
     margin-bottom: 5px;
-
 }
-
-
 
 .sidebar {
     width: 100%;
@@ -426,31 +429,27 @@ hr {
     gap: 20px;
 }
 
-
 .event-card img {
     width: 100%;
     margin-bottom: 10px;
 }
+
 .event-card {
     font-size: 15px;
     color: #333;
-    
 }
 
-
-.event-card h4 {
-    font-size: 15px;
-    color: #333;
-    
-}
-.event-heading{
+.event-heading {
     margin-top: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
 }
+
 .event-title {
     font-weight: bold;
     font-size: 18px;
-    margin-bottom: 10px; /
-
+    margin-bottom: 10px;
 }
 
 .event-time {
@@ -458,12 +457,11 @@ hr {
     margin-bottom: 10px;
 }
 
-.sidebar > .event-card > img{
+.sidebar > .event-card > img {
     width: 100%;
     margin-top: 20px;
 }
-
-.information-btn {
+.info-btn {
     background: #c0c7cc;
     border: none;
     padding: 8px;
@@ -474,19 +472,80 @@ hr {
     margin-bottom: 10px;
 }
 
-.information-btn:hover {
+.info-btn:hover {
     background: #a9b0b5;
 }
 
+/*friendrequestttttt*/
 
 
+.request-card{
+    background: white;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 5px;
+}
+.friend-actions {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.heading{
+    margin-top: 10px;
+}
+
+.friend-request-profile{
+    align-self: center;
+    width: 100px;
+    height: 100px;
+    margin-top: 20px;
+}
 
 
+.accept-btn, .decline-btn {
+    border: none;
+    padding: 8px 15px;
+    font-size: 16px;
+    cursor: pointer;
+    width: 100%;
+}
+
+.accept-btn {
+    background: #a4d4a5;
+    color: white;
+}
+
+.decline-btn {
+    background: #e38e8e;
+    color: white;
+}
 
 
+.accept-btn:hover {
+    background: #cfd8cf;
+}
 
+.decline-btn:hover {
+    background: #cfd8cf;
+}
 
-
+/*box adss*/
+.box-ads{
+    text-align: center;
+}
+.box img[alt="Bug"] {
+    width: 80px;
+    height: 80px;
+    margin-top: 10px;
+    background: white;
+    padding: 10px;
+    border-radius: 10px;
+    align-items: center;
+}
 
 
 
