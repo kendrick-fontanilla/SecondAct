@@ -12,7 +12,7 @@ body{
     justify-content: space-between;
     align-items: center;
     background-color: rgb(77, 99, 111);
-    padding: 10px 20px;
+    padding: 10px 10px;
     color: white;
 }
 
@@ -22,18 +22,18 @@ body{
     justify-content: center;
     width: 40px;
     height: 40px;
-    border-radius: 5px;
+    border-radius: 10px;
 }
 
 
 .nav-left {
     display: flex;
-    gap: 15px; 
+    gap: 30px; 
 }
 
 .nav-icon img {
-    width: 25px;
-    height: 25px;
+    width: 20px;
+    height: 20px;
     filter: brightness(0) invert(1); 
 }
 
@@ -71,6 +71,7 @@ body{
     display: flex;
     align-items: center;
     cursor: pointer;
+    border: 0;
 }
 
 .badge {
@@ -93,7 +94,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    border-radius: 5px;
+    border: 0;
 }
 
 .dropdown:hover {
@@ -187,7 +188,7 @@ body{
 
 .profile h3 {
     font-weight: bold;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 
 .profile-picture {
@@ -211,15 +212,17 @@ body{
 
 .profile-details {
     list-style: none;
-    padding: 0;
+    padding: 10px;
     margin-top: 10px;
+    
 }
 
 .profile-details li {
     display: flex;
     align-items: center;
     font-size: 14px;
-    margin: 5px 0;
+    margin: 5px 5px;
+    
 }
 
 
@@ -534,18 +537,25 @@ hr {
 }
 
 /*box adss*/
-.box-ads{
+.box-ads {
     text-align: center;
 }
-.box img[alt="Bug"] {
-    width: 80px;
-    height: 80px;
-    margin-top: 10px;
-    background: white;
-    padding: 10px;
-    border-radius: 10px;
-    align-items: center;
+
+.bug-box {
+    display: flex;
+    justify-content: center;
 }
+
+.bug-box img {
+    width: 30px; 
+    max-width: 100px;
+    background-color: white;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    border-radius: 5px;
+}
+
+
 
 
 
